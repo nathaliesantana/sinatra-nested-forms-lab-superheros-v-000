@@ -13,7 +13,7 @@ class App < Sinatra::Base
     @team_name = params[:team][:name]
     @team_motto = params[:team][:motto]
     @team_members = params[:team][:members]
-
+    binding.pry
   end
     erb :team
   end
